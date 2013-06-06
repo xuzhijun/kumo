@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jquery.kumo.box</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #ccc;
+	height:2000px;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	background-color: #FFF;
+	display:none;
+	z-index:1000;
+}
+.box .close {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 100px;
+	top: 0;
+	background-color: #000;
+}
+.show {
+	position:absolute;
+	top:1000px;
+	left:0;
+	width:50px;
+	height:20px;
+}
+.show2 {
+	position:absolute;
+	top:1200px;
+	left:0;
+	width:50px;
+	height:20px;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color:#000;
+	opacity:0.5;
+}
+</style>
+</head>
+
+<body>
+<div id="box" class="box">
+<a class="link" box="#box1" href="javascript:;">显示</a>
+  <div class="close"></div>
+</div>
+<div id="box1" class="box">
+<a class="link" box="#box2" href="javascript:;">显示1</a>
+  <div class="close"></div>
+</div>
+<div id="box2" class="box">
+<a class="link" box="#box3" href="javascript:;">显示2</a>
+  <div class="close"></div>
+</div>
+<div id="box3" class="box">
+<a class="link" box="#box" href="javascript:;">显示3</a>
+  <div class="close"></div>
+</div>
+<button id="showBox3" box="#box" class="show">显示</button>
+<button class="show2" box="#box2">显示2</button>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script src="jquery.kumo.box.js"></script> 
+<script>
+$(function () {
+	var box = new p2aBox({
+		isFixed: true,
+		isCenter: true,
+		isModal: true,
+		trigger: 'button'
+	});
+});
+</script>
+</body>
+</html>

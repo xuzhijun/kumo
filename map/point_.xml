@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <icon name="zaishou">
+        <point text="A" x="539" y="648" name="jsht" >
+            <tip link="" src="images/points/zaishou-a-wk-jsht.png" class="" />
+        </point>
+        <point text="B" x="638" y="442" name="hqys" >
+            <tip link="" src="images/points/zaishou-b-wk-hqys.png" class="" />
+        </point>
+        <point text="C" x="667" y="331" name="jsly" >
+            <tip link="" src="images/points/zaishou-c-wk-jsly.png" class="" />
+        </point>
+        <point text="D" x="782" y="286" name="hps" >
+            <tip link="" src="images/points/zaishou-d-wk-hps.png" class="shu" />
+        </point>
+        <point text="E" x="455" y="229" name="jylw" >
+            <tip link="" src="images/points/zaishou-e-wk-jylw.png" class="" />
+        </point>
+        <point text="F" x="775" y="528" name="chxy" >
+            <tip link="" src="images/points/zaishou-f-wk-chxy.png" class="" />
+        </point>
+        <point text="G" x="956" y="537" name="fcbs" >
+            <tip link="" src="images/points/zaishou-g-fcbs.png" class="shu" />
+        </point>
+        <point text="H" x="974" y="481" name="wjf" >
+            <tip link="" src="images/points/zaishou-h-wk-wjf.png" class="" />
+        </point>
+        <point text="I" x="1049" y="512" name="hscq" >
+            <tip link="" src="images/points/zaishou-i-wk-hscq.png" class="" />
+        </point>
+        <point text="J" x="1179" y="553" name="qlj" >
+            <tip link="" src="images/points/zaishou-j-wk-qlj.png" class="" />
+        </point>
+        <point text="K" x="438" y="956" name="jsmx" >
+            <tip link="" src="images/points/zaishou-k-wk-jsmx.png" class="" />
+        </point>
+    </icon>
+    <icon name="jiangshou">
+        <point text="A" x="620" y="538" name="vkc" >
+            <tip link="" src="images/points/jiangshou-a-vkc.png" class="" />
+        </point>
+    </icon>
+    <icon name="chubei">
+        <point text="A" x="632" y="637" name="储备用地一" >
+            <tip link="" src="images/points/chubei-a.png" class="" />
+        </point>
+        <point text="B" x="991" y="419" name="储备用地二" >
+            <tip link="" src="images/points/chubei-b.png" class="" />
+        </point>
+        <point text="C" x="488" y="259" name="储备用地三" >
+            <tip link="" src="images/points/chubei-c.png" class="" />
+        </point>
+    </icon>
+    <icon name="shouqin">
+        <point text="A" x="814" y="527" name="cshy" >
+            <tip link="" src="images/points/shouqin-a-cshy.png" class="" />
+        </point>
+        <point text="B" x="799" y="567" name="lry" >
+            <tip link="" src="images/points/shouqin-b-lry.png" class="" />
+        </point>
+        <point text="C" x="843" y="558" name="jrfj" >
+            <tip link="" src="images/points/shouqin-c-jrfj.png" class="" />
+        </point>
+        <point text="D" x="709" y="492" name="lqsf" >
+            <tip link="" src="images/points/shouqin-d-lqsf.png" class="" />
+        </point>
+        <point text="E" x="746" y="465" name="hj" >
+            <tip link="" src="images/points/shouqin-e-hj.png" class="" />
+        </point>
+        <point text="F" x="1110" y="422" name="ls" >
+            <tip link="" src="images/points/shouqin-f-ls.png" class="" />
+        </point>
+        <point text="" x="566" y="512" name="jy" >
+            <tip link="" src="images/points/shouqin-g-jy.png" class="" />
+        </point>
+        <point text="" x="587" y="485" name="jy" >
+            <tip link="" src="images/points/shouqin-h-jy.png" class="" />
+        </point>
+        <point text="" x="658" y="486" name="sy" >
+            <tip link="" src="images/points/shouqin-i-sy.png" class="" />
+        </point>
+        <point text="" x="742" y="295" name="hpzy" >
+            <tip link="" src="images/points/shouqin-j-hpzy.png" class="" />
+        </point>
+        <point text="" x="805" y="324" name="hpjy" >
+            <tip link="" src="images/points/shouqin-k-hpjy.png" class="" />
+        </point>
+        <point text="" x="768" y="592" name="bmhy" >
+            <tip link="" src="images/points/shouqin-l-bmhy.png" class="" />
+        </point>
+        <point text="" x="780" y="623" name="bmbs" >
+            <tip link="" src="images/points/shouqin-m-bmbs.png" class="" />
+        </point>
+        <point text="" x="850" y="458" name="xjhy" >
+            <tip link="" src="images/points/shouqin-n-xjhy.png" class="" />
+        </point>
+        <point text="" x="873" y="492" name="hezhy" >
+            <tip link="" src="images/points/shouqin-o-hezhy.png" class="" />
+        </point>
+        <point text="" x="893" y="549" name="yny" >
+            <tip link="" src="images/points/shouqin-p-yny.png" class="" />
+        </point>
+        <point text="" x="883" y="584" name="hyxc" >
+            <tip link="" src="images/points/shouqin-q-hyxc.png" class="" />
+        </point>
+        <point text="" x="941" y="497" name="jslc" >
+            <tip link="" src="images/points/shouqin-r-jslc.png" class="" />
+        </point>
+        <point text="" x="1020" y="512" name="jsyz" >
+            <tip link="" src="images/points/shouqin-s-jsyz.png" class="" />
+        </point>
+        <point text="" x="1084" y="411" name="sl" >
+            <tip link="" src="images/points/shouqin-t-sl.png" class="" />
+        </point>
+        <point text="" x="1086" y="466" name="xlc" >
+            <tip link="" src="images/points/shouqin-u-xlc.png" class="" />
+        </point>
+        <point text="" x="1135" y="454" name="dwy" >
+            <tip link="" src="images/points/shouqin-v-dwy.png" class="" />
+        </point>
+        <point text="" x="1105" y="489" name="jscs" >
+            <tip link="" src="images/points/shouqin-w-jscs.png" class="" />
+        </point>
+        <point text="" x="1118" y="515" name="jscp" >
+            <tip link="" src="images/points/shouqin-x-jscp.png" class="" />
+        </point>
+        <point text="" x="1080" y="547" name="txbs" >
+            <tip link="" src="images/points/shouqin-y-txbs.png" class="" />
+        </point>
+        <point text="" x="477" y="978" name="jytx" >
+            <tip link="" src="images/points/shouqin-z-jytx.png" class="" />
+        </point>
+    </icon>
+</root>
