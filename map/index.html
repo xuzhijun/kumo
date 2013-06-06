@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>p2a_map</title>
+<link rel="stylesheet" type="text/css" href="map.css"/>
+<link rel="stylesheet" type="text/css" href="reset.min.css"/>
+</head>
+<body>
+<div id="idContainer" class="map-con">
+    <div class="map-select">
+        <div class="select">全部楼盘</div>
+        <ul>
+            <li name="all"><a icon="all" href="javascript:;">全部楼盘</a></li>
+            <li name="xingfu"><a bar="xingfu" href="javascript:;">幸福系</a></li>
+            <li name="guoji"><a bar="guoji" href="javascript:;">国际系</a></li>
+            <li name="gaoduan"><a bar="gaoduan" href="javascript:;">高端系</a></li>
+        </ul>
+    </div>
+    <div class="map-barList">
+        <div class="barItem bar-xingfu">
+            <ul class="point-list clear">
+                <li><a move="jsht" href="javascript:;">金色华亭</a></li>
+                <li><a move="jsly" href="javascript:;">金色领域</a></li>
+                <li><a move="jylw" href="javascript:;">金域蓝湾</a></li>
+                <li><a move="jsmx" href="javascript:;">金色梦想</a></li>
+            </ul>
+            <a class="bar-more" href="/estate/product/happiness.asp" target="_blank">进入幸福系</a></div>
+        <div class="barItem bar-guoji">
+            <ul class="point-list clear">
+                <li><a move="qlj" href="javascript:;">清林径</a></li>
+                <li><a move="hps" href="javascript:;">琥珀墅</a></li>
+                <li><a move="chxy" href="javascript:;">城花新园</a></li>
+                <li><a move="hscq" href="javascript:;">海上传奇</a></li>
+                <li><a move="hqys" href="javascript:;">虹桥源墅</a></li>
+                <li><a move="vkc" href="javascript:;">V.CITY</a></li>
+            </ul>
+            <a class="bar-more" href="/estate/product/internation.asp" target="_blank">进入国际系</a></div>
+        <div class="barItem bar-gaoduan">
+            <ul class="point-list clear">
+                <li><a move="fcbs" href="javascript:;">翡翠别墅</a></li>
+                <li><a move="wjf" href="javascript:;">五玠坊</a></li>
+            </ul>
+            <a class="bar-more" href="/estate/product/luxury.asp" target="_blank">进入高端系</a></div>
+    </div>
+    <div class="map-wheel clear">
+        <div wheel-to="up" class="up"></div>
+        <div wheel-to="left" class="left"></div>
+        <div wheel-to="down" class="down"></div>
+        <div wheel-to="right" class="right"></div>
+    </div>
+    <div class="map-button clear"><a icon="zaishou" href="javascript:;"></a><a icon="jiangshou" href="javascript:;"></a><a icon="chubei" href="javascript:;"></a><a icon="shouqin" href="javascript:;"></a></div>
+    <div class="map-entity">
+        <div class="map-view"></div>
+        <img src="map.jpg" width="1920" height="1127" /></div>
+    <div></div>
+</div>
+<div class="map-position"></div>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script src="jquery.p2a.map.js"></script> 
+<script>
+$(function () {
+	var map = new p2aMap('idContainer',{
+		isLocal:true,
+		isPoint:true,
+		pointUrl:"point.xml"
+	});
+})
+</script>
+</body>
+</html>
