@@ -1,13 +1,13 @@
 /*
 版本号：alpha
-描述：p2aMap组件，作为P2A-JavaScript-Library的一部分
+描述：kumoMap组件，作为KUMO的一部分
 options:
 
 */
-var p2aMap = function (id, options) {
+var kumoMap = function (id, options) {
 	this._initialize(id, options);
 }
-p2aMap.prototype = {
+kumoMap.prototype = {
 	//初始化
 	_initialize: function(id, options) {
 		this.container = $("#"+id);

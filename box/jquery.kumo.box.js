@@ -1,11 +1,11 @@
 /*
 版本号：1.0
-描述：p2aBox组件，作为P2A-JavaScript-Library的一部分
+描述：box组件，作为KUMO的一部分
 */
-var p2aBox = function (options) {
+var kumoBox = function (options) {
 	this._initialize(options);
 }
-p2aBox.prototype = {
+kumoBox.prototype = {
 	/*
 	* 初始化
 	*/
